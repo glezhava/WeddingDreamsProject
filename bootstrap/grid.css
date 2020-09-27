@@ -1,0 +1,294 @@
+/* ------------------------------- */
+/* UNIVERSAL */
+/* ------------------------------- */
+
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,body {
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif , Arial;
+    font-weight: 300;
+    line-height: 145%;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* ------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------- */
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------- */
+/* HEADINGS */
+/* TYPOGRAPHY */
+/* POSITIONS*/
+/* ------------------------------- */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 145%;
+}
+
+.light-text {
+    font-weight: 200;
+}
+
+.normal-text {
+    font-weight: 300;
+}
+
+.heavy-text {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* ------------------------------- */
+/* GRID SYSTEM */
+/* ------------------------------- */
+
+.row {
+    width: 100%;
+    padding: 1% 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 85%;
+    margin: 1% auto;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    padding: 1%;
+    margin: 0 1%;
+    float: left;
+}
+
+/* 1 COLUMN  */
+
+.col-1of1 {
+    width: 98%;
+    padding: 1%;
+    margin: 0 1%;
+}
+
+/* 2 COLUMNS */
+
+.col-1of2,
+.col-2of2 {
+    width: 48%;
+}
+
+/* 3 COLUMNS */
+
+.col-1of3,
+.col-2of3,
+.col-3of3 {
+    width: 31.33%;
+}
+
+/* 4 COLUMNS */
+
+.col-1of4,
+.col-2of4,
+.col-3of4,
+.col-4of4 {
+    width: 23%;
+}
+
+/* 5 COLUMNS */
+
+.col-1of5,
+.col-2of5,
+.col-3of5,
+.col-4of5,
+.col-5of5 {
+    width: 18%;
+}
+
+/* 6 COLUMNS */
+
+.col-1of6,
+.col-2of6,
+.col-3of6,
+.col-4of6,
+.col-5of6,
+.col-6of6 {
+    width: 14.66%;
+}
+
+/* 7 COLUMNS */
+
+.col-1of7,
+.col-2of7,
+.col-3of7,
+.col-4of7,
+.col-5of7,
+.col-6of7,
+.col-7of7 {
+    width: 12.28%;
+}
+
+/* 8 COLUMNS */
+
+.col-1of8,
+.col-2of8,
+.col-3of8,
+.col-4of8,
+.col-5of8,
+.col-6of8,
+.col-7of8,
+.col-8of8 {
+    width: 10.50%;
+}
+
+/* 9 COLUMNS */
+
+.col-1of9,
+.col-2of9,
+.col-3of9,
+.col-4of9,
+.col-5of9,
+.col-6of9,
+.col-7of9,
+.col-8of9,
+.col-9of9 {
+    width: 9.11%;
+}
+
+/* 10 COLUMNS */
+
+.col-1of10,
+.col-2of10,
+.col-3of10,
+.col-4of10,
+.col-5of10,
+.col-6of10,
+.col-7of10,
+.col-8of10,
+.col-9of10,
+.col-10of10 {
+    width: 8%;
+}
+
+/* 11 COLUMNS */
+
+.col-1of11,
+.col-2of11,
+.col-3of11,
+.col-4of11,
+.col-5of11,
+.col-6of11,
+.col-7of11,
+.col-8of11,
+.col-9of11,
+.col-10of11,
+.col-11of11 {
+    width: 7.09%;
+}
+
+/* 12 COLUMNS */
+
+.col-1of12,
+.col-2of12,
+.col-3of12,
+.col-4of12,
+.col-5of12,
+.col-6of12,
+.col-7of12,
+.col-8of12,
+.col-9of12,
+.col-10of12,
+.col-11of12,
+.col-12of12 {
+    width: 6.33%;
+}
+
+/* ------------------------------- */
+/* CONTACT FORMS */
+/* ------------------------------- */
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+::placeholder {
+    font-style: italic;
+}
