@@ -86,8 +86,42 @@ header {
     margin-right: 40px;
 }
 
-.main-nav li a {
+.main-nav-link {
     color: black;
+}
+
+.dropdown {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.dropdown-content {
+    background-color: black;
+    max-width: 130px;
+    position: absolute;
+    display: none;
+    min-width: 130px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.dropdown-link {
+    padding: 6px 15px;
+    font-size: 80%;
+    transition: all 0.5s;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-link {
+    color: #ffffff;
+    display: block;
 }
 
 .social-icons li {
@@ -398,4 +432,8 @@ input[type=email]::placeholder {
 
 .therms-privacy {
     color: #ffffff;
+}
+
+footer .container {
+    margin-bottom: 0;
 }
