@@ -1,0 +1,369 @@
+/* --------------------------------------------------------------------- */
+/* ----------------------------- HEADINGS ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 300%;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 125%;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 110%;
+    font-weight: 300;
+    margin: 20px 0 10px 0;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 220%;
+    font-weight: 300;
+    margin: 20px 0 10px 0;
+    line-height: 145%;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 300%;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 280%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 25px 0 35px 0;
+}
+
+h7 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150%;
+}
+
+h8 {
+    letter-spacing: 1px;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ HEADER ------------------------------- */
+/* --------------------------------------------------------------------- */
+
+header .row {
+    padding: 35px 15px;
+}
+
+header {
+    height: 100px;
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+.logo-box {
+    width: 20%;
+    float: left;
+}
+
+.main-nav-box {
+    width: 60%;
+    float: left;
+}
+
+.social-icons-box {
+    width: 20%;
+    float: left;
+}
+
+.main-nav li,
+.social-icons li {
+    display: inline-block;
+}
+
+.main-nav li {
+    margin-right: 40px;
+}
+
+.main-nav-link {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.dropdown-content {
+    background-color: black;
+    max-width: 130px;
+    position: absolute;
+    display: none;
+    min-width: 130px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.dropdown-link {
+    padding: 6px 15px;
+    font-size: 80%;
+    transition: all 0.5s;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-link {
+    color: #ffffff;
+    display: block;
+}
+
+.social-icons li {
+    margin-right: 25px;
+    list-style: none;
+}
+
+.social-icon {
+    color: black;
+}
+
+/* --------------------------------------------------------------------- */
+/* ----------------------------- BG BANNER ----------------------------- */
+/* --------------------------------------------------------------------- */
+
+.bg-banner {
+    background-image: url("../style/img/breadcrumb-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* --------------------------------------------------------------------- */
+/* -------------------------- WEEDING VENDORS -------------------------- */
+/* --------------------------------------------------------------------- */
+
+.wedding-vendors-paragraph {
+    color: #666666;
+    margin-bottom: 40px;
+    font-size: 98%;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #a5a5a5;
+}
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ COUNTER ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+
+.counter p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-top: 45px;
+}
+
+/* --------------------------------------------------------------------- */
+/* --------------------------- OUR CLIENT SAY --------------------------- */
+/* --------------------------------------------------------------------- */
+
+.our-client-say {
+    background-color: #f6f7f1;
+    margin-top: 70px;
+}
+
+.our-client-say-text {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.our-client-say-text p {
+    color: #111111;
+    font-family:  'Cormorant Garamond', serif;
+    font-size: 160%;
+}
+
+.our-client-say-author {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.author-text h3 {
+    margin-top: 0;
+}
+
+.raiting-icon {
+    color: #efc873;
+}
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ PERSONS ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+.profession {
+    color: #767b67;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120%;
+    font-weight: 300;
+}
+
+.team-social-icons {
+    margin-top: 15px;
+}
+
+.team-social-icons li {
+    margin-right: 16px;
+}
+
+.team-social-icons li:last-of-type {
+    margin-right: 0;
+}
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ FOOTER ------------------------------- */
+/* --------------------------------------------------------------------- */
+
+footer {
+    background-color: #3b3e33;
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+footer input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #ffffff;
+    height: 60px;
+    float: left;
+    width: 85%;
+}
+
+input[type=email]::placeholder {
+    color: #ffffff;
+}
+
+.send-mail-btn {
+    background-color: #ffffff;
+    font-size: 200%;
+    padding: 14px 9px;
+    color: #767b67;
+}
+
+.footer-social-icons li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-social-icons {
+    float: right;
+}
+
+.footer-social-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 19px;
+}
+
+.basket {
+    margin-right: 0;
+}
+
+.subscribe-section {
+    padding: 50px 0 0 0;
+}
+
+.subscribe-section .col-3of3,
+.subscribe-section .col-1of3 {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.subscribe-section .col-3of3 {
+    margin-left: 4%;
+}
+
+.subscribe-section .col-2of3 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.subscribe-section p {
+    margin: 10px 0 30px 0;
+    font-weight: 300;
+}
+
+.contact-us-section:after,
+.subscribe-section:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 98%;
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.margin-top-s {
+    margin-top: 20px;
+}
+
+.contact-us-section .col-4of4 {
+    padding-right: 0;
+}
+
+.contact-us-section {
+    padding: 30px 0 0 0;
+}
+
+.margin-bottom-s {
+    margin-bottom: 40px;
+}
+
+.author {
+    color: #898d7b;
+}
+
+.therms-privacy {
+    color: #ffffff;
+}
+
+footer .container {
+    margin-bottom: 0;
+}
